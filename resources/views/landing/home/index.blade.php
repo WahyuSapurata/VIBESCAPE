@@ -583,7 +583,7 @@
                                 <div class="block-header panel">
                                     <h2 class="h5 lg:h4 fw-medium m-0 text-inherit hstack">
                                         <a class="text-none dark:text-white hover:text-primary duration-150"
-                                            href="#">Gaya Hiduo</a>
+                                            href="#">Gaya Hidup</a>
                                         <i class="icon-2 lg:icon-3 unicon-chevron-right opacity-40"></i>
                                     </h2>
                                 </div>
