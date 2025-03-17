@@ -796,6 +796,15 @@ class Control {
         $(element).html(html);
     }
 
+    push_select_data(data, element) {
+        $(element).html("");
+        let html = "<option></option>";
+        $.each(data, function (x, y) {
+            html += `<option value="${y.text}">${y.text}</option>`;
+        });
+        $(element).html(html);
+    }
+
     push_select_kop(data, element) {
         $(element).html("");
         let html = "<option></option>";

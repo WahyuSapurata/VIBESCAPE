@@ -35,6 +35,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
     Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' => 'admin.'], function () {
         Route::get('/dashboard-admin', 'Dashboard@dashboard_admin')->name('dashboard-admin');
 
+        Route::get('/chart', 'Dashboard@areaChart')->name('chart');
+
         Route::get('/data-user', 'DataUser@index')->name('data-user');
         Route::get('/data-user-get', 'DataUser@get')->name('data-user-get');
         Route::post('/data-user-add', 'DataUser@add')->name('data-user-add');
@@ -80,6 +82,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
 
     Route::group(['prefix' => 'user', 'middleware' => ['auth'], 'as' => 'user.'], function () {
         Route::get('/dashboard-user', 'Dashboard@dashboard_user')->name('dashboard-user');
+
+        Route::get('/chart', 'Dashboard@areaChart')->name('chart');
 
         Route::get('/kategori-get', 'KategoriController@get')->name('kategori-get');
 
