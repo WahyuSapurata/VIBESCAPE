@@ -8,17 +8,26 @@
     <title>{{ config('app.name') }} | Login</title>
     <meta charset="utf-8" />
     <meta name="description"
-        content="Si Peka (Sistem Informasi Pengetesan Kemiskinan) Adalah Wadah Perencanaan, Monitoring Pelakasanaan dan Evaluasi Kinerja Program Pengetesan Kemiskinan Terintegrasi Dengan Konsep Kolaborasi Program dan Anggaran." />
-    <meta name="keywords" content="Kemiskinan, perencanaan, monitoring, evaluasi" />
+        content="Vibescape adalah portal berita terkini yang membahas Politik, Ekonomi, Sosial, Teknologi, Fashion, Kesehatan, Hiburan, dan banyak lagi.">
+    <meta name="keywords"
+        content="berita, politik, ekonomi, sosial, teknologi, fashion, kesehatan, mental health, kuliner, travel, film, musik, selebriti, seni budaya, opini publik, startup, AI, gadget, digital lifestyle, cyber security, investasi, UMKM, trending, viral">
+    <link rel="canonical" href="https://vibescape.whoops.co.id">
+    <meta name="theme-color" content="#2757fd">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vibescape - Berita Terkini dan Trending">
+    <meta property="og:description"
+        content="Dapatkan berita terbaru seputar Politik, Ekonomi, Sosial, Teknologi, Hiburan, Gaya Hidup, dan banyak lagi hanya di Vibescape.">
+    <meta property="og:url" content="https://vibescape.whoops.co.id">
+    <meta property="og:site_name" content="Vibescape">
+    <meta property="og:image" content="https://vibescape.whoops.co.id/logo_vibescape.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title"
-        content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-    <meta property="og:url" content="https://keenthemes.com/metronic" />
-    <meta property="og:site_name" content="Keenthemes | Metronic" />
-    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <!--end::Fonts-->

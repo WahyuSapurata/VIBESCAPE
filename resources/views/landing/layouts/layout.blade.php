@@ -8,24 +8,24 @@
     <title>{{ config('app.name') . ' | ' . $module }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description"
-        content="News5 a clean, modern and pixel-perfect multipurpose blogging HTML5 website template.">
+        content="Vibescape adalah portal berita terkini yang membahas Politik, Ekonomi, Sosial, Teknologi, Fashion, Kesehatan, Hiburan, dan banyak lagi.">
     <meta name="keywords"
-        content="saas, saas template, site template, software, startup, digital product, html5, landing, marketing, bootstrap, uikit3, agency, ai, digital agency, it solutions, nodejs">
-    <link rel="canonical" href="https://unistudio.co/html/News5">
+        content="berita, politik, ekonomi, sosial, teknologi, fashion, kesehatan, mental health, kuliner, travel, film, musik, selebriti, seni budaya, opini publik, startup, AI, gadget, digital lifestyle, cyber security, investasi, UMKM, trending, viral">
+    <link rel="canonical" href="https://vibescape.whoops.co.id">
     <meta name="theme-color" content="#2757fd">
 
     <!-- Open Graph Tags -->
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="id_ID">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="News5">
+    <meta property="og:title" content="Vibescape - Berita Terkini dan Trending">
     <meta property="og:description"
-        content="Full-featured, professional-looking news, editorial and magazine website template.">
-    <meta property="og:url" content="https://unistudio.co/html/news5/">
-    <meta property="og:site_name" content="News5">
-    <meta property="og:image" content="https://unistudio.co/html/news5/assets/images/common/seo-image.jpg">
-    <meta property="og:image:width" content="1180">
-    <meta property="og:image:height" content="600">
-    <meta property="og:image:type" content="image/png">
+        content="Dapatkan berita terbaru seputar Politik, Ekonomi, Sosial, Teknologi, Hiburan, Gaya Hidup, dan banyak lagi hanya di Vibescape.">
+    <meta property="og:url" content="https://vibescape.whoops.co.id">
+    <meta property="og:site_name" content="Vibescape">
+    <meta property="og:image" content="https://vibescape.whoops.co.id/logo_vibescape.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
