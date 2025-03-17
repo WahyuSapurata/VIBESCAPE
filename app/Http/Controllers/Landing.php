@@ -16,7 +16,7 @@ class Landing extends BaseController
     {
         $module = 'Home';
         $artikel_pilihan  = Artikel::where('set_artikel', true)->first();
-        $author = User::where('uuid', $artikel_pilihan->uuid_user)->first();
+        $author = User::where('uuid', optional($artikel_pilihan->uuid_user))->first();
         $artikel_latest = Artikel::whereNotNull('tanggal_pulbukasi') // Hanya ambil yang sudah dipublikasikan
             ->orderBy('tanggal_pulbukasi', 'desc') // Urutkan dari yang terbaru
             ->limit(4) // Ambil 4 data saja
