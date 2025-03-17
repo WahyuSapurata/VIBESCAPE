@@ -27,15 +27,6 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
 
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="News5">
-    <meta name="twitter:description"
-        content="Full-featured, professional-looking news, editorial and magazine website template.">
-    <meta name="twitter:image" content="https://unistudio.co/html/news5/assets/images/common/seo-image.jpg">
-
-    <link rel="canonical" href="https://unistudio.co/html/news5/">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- preload head styles -->
